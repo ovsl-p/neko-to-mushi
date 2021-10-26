@@ -1,0 +1,12 @@
+body {
+  min-width: 15em;
+  min-height: 3em;
+}
+
+.button{
+  padding:1em 1em;
+  border:black 2px solid;
+  display:block;
+  margin:0 auto;
+  border-radius: 5px;
+}
