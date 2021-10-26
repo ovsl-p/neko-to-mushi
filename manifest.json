@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "neko to mushi",
+  "version": "1.0.0",
+  "description": "ねこをむしに修正します",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "main.js"
+      ]
+    }
+  ]
+}
