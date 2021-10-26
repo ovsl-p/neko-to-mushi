@@ -18,7 +18,6 @@ let button = document.getElementById("changebutton");
 
 button.addEventListener("click", async () => {
   let tab = await getCurrentTab();
-  console.log(tab);
 
   chrome.scripting.executeScript({
     target: { tabId: tab.id },
