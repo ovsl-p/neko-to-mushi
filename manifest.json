@@ -3,15 +3,13 @@
   "name": "neko to mushi",
   "version": "1.0.0",
   "description": "ねこをむしに修正します",
-  "content_scripts": [
-    {
-      "matches": [
-        "http://*/*",
-        "https://*/*"
-      ],
-      "js": [
-        "main.js"
-      ]
-    }
-  ]
+  "permissions": [
+    "declarativeContent",
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "neko to mushi",
+    "default_popup": "popup.html"
+  }
 }
